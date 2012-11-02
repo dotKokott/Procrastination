@@ -29,10 +29,10 @@ package
 		{			
 			playerSpritemap = new Spritemap(playerSprite, 104, 150);			
 
-			playerSpritemap.add("walk_right", [0, 1, 2, 3, 4, 5], 10, true);
-			playerSpritemap.add("walk_left", [6, 7, 8, 9, 10, 11], 10, true);
-			playerSpritemap.add("stand_right", [12], 10, true);
-			playerSpritemap.add("stand_left", [13], 10, true);
+			playerSpritemap.add("walk_right", [0, 1, 2, 3, 4, 5], 5, true);
+			playerSpritemap.add("walk_left", [6, 7, 8, 9, 10, 11], 5, true);
+			playerSpritemap.add("stand_right", [12], 5, true);
+			playerSpritemap.add("stand_left", [13], 5, true);
 			
 			x = 90;
 			y = 550 - 150;

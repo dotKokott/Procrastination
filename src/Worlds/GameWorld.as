@@ -14,6 +14,12 @@ package Worlds
 		
 		public function GameWorld() 
 		{
+			
+			add(new Clock(100, 50, 50));
+			add(new Clock(0, 70, 20));
+			add(new Clock(100, 300, 70));
+			add(new Clock(500, 70, 80));
+			add(new Clock(400, 50, 30));
 			player = new Player();
 			
 			add(new Platform(0, 550, 800, 5));
